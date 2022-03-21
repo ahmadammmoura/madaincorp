@@ -40,6 +40,9 @@ function renderAllData(data) {
 }
 
 function filter(category) {
+    if(category === 'reset'){
+       return renderAllData(allData)
+    }
   const filterd = allData
     .filter((item) => item.category === category)
     .map((item) => {
