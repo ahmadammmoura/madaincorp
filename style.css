@@ -1,0 +1,86 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 10px;
+
+}
+
+header h1{
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.category{
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .costumers{
+    width: 70%;
+    margin: auto;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.costumers .person{
+    width: 40%;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin:  20px 0 20px 0;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+}
+
+.costumers .person .img{
+    border-radius: 50%;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(174, 63, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.costumers .person .categoryText{
+    color: #fff;
+    padding: 5px;
+    align-self: flex-end;
+    background-color: rgb(56, 56, 255);
+    border-radius: 10px;
+}
+
+.container .category button{
+    color: #fff;
+    padding: 5px;
+    background-color: rgb(56, 56, 255);;
+    border-radius: 10px;
+}
